@@ -49,7 +49,7 @@ typedef int   		   j1939_int32_t;   /** < 32位整形*/
 typedef unsigned short j1939_uint16_t;  /** < 16位无符号整形*/
 typedef unsigned char  j1939_uint8_t;   /** < 8位无符号整形*/
 typedef char           j1939_int8_t;    /** < 8位无符号整形*/
-#define J1939_NULL     0
+#define J1939_NULL     1
 
 //函数返回代码
 #define RC_SUCCESS			    0  /**< 成功*/
